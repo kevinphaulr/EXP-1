@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Event Registration</title>
+</head>
+<body>
+
+    <h1>Tech Fest 2026</h1>
+    <p>Welcome to the official registration portal</p>
+
+    <!-- Event Banner Image -->
+    <img src="event-banner.jpg" alt="Event Banner" width="600">
+
+    <hr>
+
+    <!-- Promotional Video -->
+    <h2>Event Promo Video</h2>
+    <video width="600" controls>
+        <source src="promo-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <!-- Background Audio -->
+    <h2>Event Theme Audio</h2>
+    <audio controls>
+        <source src="theme-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <!-- Registration Form -->
+    <h2>Event Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email Address:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Select Event Type:</label><br>
+        <select name="event">
+            <option>Workshop</option>
+            <option>Seminar</option>
+            <option>Hackathon</option>
+            <option>Conference</option>
+        </select>
+        <br><br>
+
+        <label>Additional Comments:</label><br>
+        <textarea name="comments" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <label>Upload ID Proof:</label><br>
+        <input type="file" name="idproof"><br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
